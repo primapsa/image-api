@@ -1,0 +1,163 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  
+    height: 900px;
+    background: #FFFFFF;    
+}
+.app-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+.fa-bars {
+   margin-left: 20px;
+}
+.fa-ellipsis-v {
+    margin-right: 20px;
+}
+.nav-title {    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+.page {
+    display: flex;   
+    margin-top: 50px;
+}
+
+.left-menu__colors{
+    margin-top: 73px;
+}
+.left-menu__tools, .left-menu__colors{
+    
+    padding-top: 10px;
+    height: 48px;
+    margin-left: 29px;
+    width: 228px;
+    height: 265px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+.menu-tools__item, .menu-colors__item{
+    display: flex;
+   
+    position: relative;
+    align-items: center;    
+    padding: 12px 50px;
+    cursor: pointer;
+    
+}
+
+.red:before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.blue:before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.marker {
+  
+    left: 25px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+  
+}
+
+.color-grid{
+    margin-right: 50px;
+    display: grid;
+    grid-template-rows: 230px 230px 230px;
+    grid-template-columns: 230px 230px 230px;
+    grid-gap: 10px;
+}
+.color-grid__cell {  
+    
+    background: gray;   
+}
+.menu-tools__item{
+    list-style-type: none;
+}
+.bucket:before {
+    position: absolute;
+    left: 20px;
+    font-family: fontawesome; 
+    content: "\f1fc";
+}
+
+.chose:before {
+    position: absolute;
+    left: 20px;
+    font-family: fontawesome; 
+    content: "\f1fb";
+}
+.pencil:before {
+    position: absolute;
+    left: 20px;
+    font-family: fontawesome; 
+    content: "\f040";
+}
+.tranform:before {
+    position: absolute;
+    left: 20px;
+    font-family: fontawesome; 
+    content: "\f096";
+}
+
+.content {
+    margin-left: 20%;    
+}
+
+.controls-btn {
+    display: block;
+    border: 0;
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.content__controls {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    
+}
+
+.content__canvas {
+    background-color: #faf8f2;
+}
+.active {
+    background-color: coral;
+}
+
+.customcolor {
+   display: none;
+}
+.controls-wrapper {
+    width: 512px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bw {
+    margin-left: 230px;
+}
+
